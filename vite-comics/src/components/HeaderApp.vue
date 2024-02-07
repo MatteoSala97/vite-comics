@@ -53,7 +53,8 @@ export default {
 
 div{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 20px 0;
 
   figure{
     
@@ -61,22 +62,32 @@ div{
       width: 100%;
     }
   }
-}
 
-ul{
-
-  display: flex;
-  gap: 10px;
-  align-items: center;
-
-  li{
-    list-style-type: none;
+  div{
+    ul{
     
-    a{
-      text-transform: uppercase;
-      text-decoration: none;
-      color: $font-color-main;
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    
+      li{
+        list-style-type: none;
+        font-weight: bold;
+    
+        a{
+          text-transform: uppercase;
+          text-decoration: none;
+          color: $font-color-main;
+          padding-block: 40px;
+
+          &:hover{
+            color: blue;
+            border-bottom: 5px solid blue;
+          }
+        }
+      }
     }
   }
 }
+
 </style>
