@@ -18,16 +18,16 @@
 
 
 ## About this project: 
-[![This](https://img.shields.io/badge/This-Project-d75530?labelColor=98a2ec&style=plastic&logo=github&logoColor=black&link=https://github.com/Matteosala97)](https://github.com/MatteoSala97/vite-comics)
+[![This](https://img.shields.io/badge/This-Project-d75530?labelColor=98a2ec&style=plastic&logo=github&logoColor=black&link=https://github.com/Matteosala97)](https://github.com/MatteoSala97/vite-comics/tree/main/vite-comics)
 </div>
 
 ---
 
-## Follow my journey: 
-[![My](https://img.shields.io/badge/My-Github-cyan?labelColor=blue&style=plastic&logo=github&logoColor=black&link=https://github.com/Matteosala97)](https://github.com/Matteosala97) 
+## Follow my journey through: &nbsp; [![My](https://img.shields.io/badge/My-Github-cyan?labelColor=blue&style=plastic&logo=github&logoColor=black&link=https://github.com/Matteosala97)](https://github.com/Matteosala97) 
 
+---
 
 ## Contact me:
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335.svg?style=plastic&logo=Gmail&logoColor=white)](mailto:matteo111997@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335.svg?style=plastic&logo=Gmail&logoColor=white)](mailto:matteo111997@gmail.com)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Linkedin](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=plastic&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/matteo-sala-5506a1132/)
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=plastic&logo=LinkedIn&logoColor=white)](#)
+
