@@ -84,8 +84,8 @@ div{
           padding-block: 60px;
 
           &:hover{
-            color: blue;
-            border-bottom: 5px solid blue;
+            color: #0282f9;
+            border-bottom: 5px solid #0282f9;
           }
         }
       }

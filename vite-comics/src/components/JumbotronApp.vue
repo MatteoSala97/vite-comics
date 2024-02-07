@@ -1,26 +1,29 @@
 <script>
 
 export default {
-  name: "JumbotronApp",
-};
+  name: "JumbotronApp"
+}
 </script>
 
 <template>
-    <div>
+    <div class="jumbo">
         <p>
-            Content goes here
+            -- Content goes here --
         </p>
     </div>
 </template>
 
 <style lang="scss" scoped>
+
     div{
         background-color: #1c1c1c;
         text-align: start;
         padding: 100px;
+        
         p{
             font-size: 30px;
             color: white;
         }
     }
+
 </style>
