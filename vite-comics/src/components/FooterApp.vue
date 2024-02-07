@@ -46,7 +46,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../styles/partials/variables.scss" as *;
+@use "../styles/partials/variables" as *;
+@use "../styles/partials/mixins" as *;
 .container{
     background-color: #0282f9;
     width: 100%;
@@ -70,6 +71,11 @@ export default {
                     width: 50px;
                     gap: 10px;
                     align-items: center;
+
+                    &:hover{
+                        cursor: pointer;
+                        transform: scale(1.1);
+                    }
 
                     img{
                         width: 100%;
