@@ -1,29 +1,15 @@
-# vite-hello-world
+![Alt Text](https://i.imgur.com/LpEv493.png)
 
-This template should help get you started developing with Vue 3 in Vite.
+# DC Comics - Empty Layout
 
-## Recommended IDE Setup
+##### This is the first attempt at creating a landing page using Vite + Vue3 with some functionalities.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+###### Exercise guidelines
+- Create a new project using Vite and Vue 3 and define the components necessary to structure the layout. 
+- When the structure is ready, populate the menu items dynamically using the component's data.
 
-## Customize configuration
+###### Tips: 
+- Give priority to the structural integrity of the build. After everything is setup correctly move on to Sass.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+###### Bonus: 
+- Create an add-on to manage the blue band with icons.
