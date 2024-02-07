@@ -1,6 +1,6 @@
 ![Alt Text](https://i.imgur.com/LpEv493.png)
 
-# DC Comics - Empty Layout
+# DC Comics - Empty Layout 
 
 ##### This is the first attempt at creating a landing page using Vite + Vue3 with some functionalities.
 
@@ -13,3 +13,12 @@
 
 ###### Bonus: 
 - Create an add-on to manage the blue band with icons.
+
+<br>
+
+<div style="display: flex; gap: 30px;">
+
+[![My](https://img.shields.io/badge/My-Github-cyan?labelColor=blue&style=plastic&logo=github&logoColor=black&link=https://github.com/Matteosala97)](https://github.com/Matteosala97) 
+
+[![This](https://img.shields.io/badge/This-Project-d75530?labelColor=98a2ec&style=plastic&logo=github&logoColor=black&link=https://github.com/Matteosala97)](https://github.com/MatteoSala97/vite-comics)
+</div>
