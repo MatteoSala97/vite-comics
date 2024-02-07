@@ -11,7 +11,7 @@ export default {
         <div class="list">
 
             <ul>
-                <span>DC COMICS</span>
+                <h4>DC COMICS</h4>
                 <li>Characters</li>
                 <li>Comics</li>
                 <li>Movies</li>
@@ -19,16 +19,14 @@ export default {
                 <li>Games</li>
                 <li>Videos</li>
                 <li>News</li>
-            </ul>
-
-            <ul>
-                <span>SHOP</span>
+                <br>
+                <h4>SHOP</h4>
                 <li>Shop DC</li>
                 <li>Shop DC Collectibles</li>
             </ul>
             
             <ul>
-                <span>DC</span>
+                <h4>DC</h4>
                 <li>Terms Of Use</li>
                 <li>Privacy policy (New)</li>
                 <li>Ad Choices</li>
@@ -43,7 +41,7 @@ export default {
             </ul>
 
             <ul>
-                <span>SITES</span>
+                <h4>SITES</h4>
                 <li>DC</li>
                 <li>MAD Magazine</li>
                 <li>DC Kids</li>
@@ -107,7 +105,8 @@ export default {
             ul{ 
                 list-style-type: none;
     
-                span{
+                h4{
+                    padding-bottom: 15px;
                     font-size: 25px;
                     color: #ffffff;
                     user-select: none;

@@ -6,15 +6,12 @@ export default {
 </script>
 
 <template>
-
- <div>
-  <figure>
-    <a href="#">
-      <img src="../assets/img/dc-logo.png" alt="">
-    </a>
-  </figure>
-  
   <div>
+    <figure>
+      <a href="#">
+        <img src="../assets/img/dc-logo.png" alt="">
+      </a>
+    </figure>
     <ul>
       <li>
         <a href="#">characters</a>
@@ -48,7 +45,6 @@ export default {
       </li>
     </ul>
   </div>
- </div>
 </template>
 
 <style lang="scss" scoped>
@@ -59,7 +55,6 @@ div{
   display: flex;
   justify-content: space-around;
   margin: 20px auto;
-  width: 80%;
 
   figure{
     
@@ -68,27 +63,24 @@ div{
     }
   }
 
-  div{
+  ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  
+    li{
+      list-style-type: none;
+      font-weight: bold;
+  
+      a{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $font-color-main;
+        padding-block: 60px;
 
-    ul{
-      display: flex;
-      gap: 30px;
-      align-items: center;
-    
-      li{
-        list-style-type: none;
-        font-weight: bold;
-    
-        a{
-          text-transform: uppercase;
-          text-decoration: none;
-          color: $font-color-main;
-          padding-block: 60px;
-
-          &:hover{
-            color: #0282f9;
-            border-bottom: 5px solid #0282f9;
-          }
+        &:hover{
+          color: #0282f9;
+          border-bottom: 5px solid #0282f9;
         }
       }
     }
