@@ -8,7 +8,9 @@ export default {
 <template>
  <div>
   <figure>
-    <img src="../assets/img/dc-logo.png" alt="">
+    <a href="#">
+      <img src="../assets/img/dc-logo.png" alt="">
+    </a>
   </figure>
   <div>
     <ul>
@@ -54,7 +56,8 @@ export default {
 div{
   display: flex;
   justify-content: space-around;
-  margin: 20px 0;
+  margin: 20px auto;
+  width: 80%;
 
   figure{
     
@@ -78,7 +81,7 @@ div{
           text-transform: uppercase;
           text-decoration: none;
           color: $font-color-main;
-          padding-block: 40px;
+          padding-block: 60px;
 
           &:hover{
             color: blue;
@@ -89,5 +92,4 @@ div{
     }
   }
 }
-
 </style>
