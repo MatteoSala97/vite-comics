@@ -21,10 +21,13 @@
 [![This](https://img.shields.io/badge/This-Project-d75530?labelColor=98a2ec&style=plastic&logo=github&logoColor=black&link=https://github.com/Matteosala97)](https://github.com/MatteoSala97/vite-comics)
 </div>
 
+---
+
+## Follow my journey: 
+[![My](https://img.shields.io/badge/My-Github-cyan?labelColor=blue&style=plastic&logo=github&logoColor=black&link=https://github.com/Matteosala97)](https://github.com/Matteosala97) 
+
+
 ## Contact me:
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335.svg?style=plastic&logo=Gmail&logoColor=white)](mailto:matteo111997@gmail.com)
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=plastic&logo=LinkedIn&logoColor=white)](#)
-
-## Follow my journey: 
-[![My](https://img.shields.io/badge/My-Github-cyan?labelColor=blue&style=plastic&logo=github&logoColor=black&link=https://github.com/Matteosala97)](https://github.com/Matteosala97) 
