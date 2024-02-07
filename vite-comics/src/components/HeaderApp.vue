@@ -6,12 +6,14 @@ export default {
 </script>
 
 <template>
+
  <div>
   <figure>
     <a href="#">
       <img src="../assets/img/dc-logo.png" alt="">
     </a>
   </figure>
+  
   <div>
     <ul>
       <li>
@@ -67,8 +69,8 @@ div{
   }
 
   div{
+
     ul{
-    
       display: flex;
       gap: 30px;
       align-items: center;
