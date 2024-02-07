@@ -1,9 +1,2 @@
-@mixin main-font-center {
-    text-align: center;
-    font-weight: bold;
-}
-
-@mixin main-font-start {
-    text-align: start;
-    font-weight: bold;
-}
+// mixins for styles etc
+$font-color-main: rgb(0,0,0)

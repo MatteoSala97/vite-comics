@@ -1,16 +1,15 @@
 <script>
-import ExampleName from "./components/ExampleName.vue";
+import HeaderApp from "./components/HeaderApp.vue";
 
 export default {
   components: {
-    ExampleName,
+    HeaderApp,
   },
 };
 </script>
 
 <template>
-  <h1>Hello World</h1>
-  <ExampleName />
+  <HeaderApp/>
 </template>
 
 <style lang="scss">
