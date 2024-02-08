@@ -9,7 +9,7 @@ export default {
     HeaderApp,
     JumbotronApp,
     FooterApp,
-    Footer
+    Footer,
   }
 };
 </script>

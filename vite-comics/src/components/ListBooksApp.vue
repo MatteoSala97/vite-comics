@@ -85,9 +85,60 @@
 </script>
 
 <template>
-
+    <div class="card">
+        <div>
+            <figure v-for="(book, index) in books" :key="index">
+                <img :src="book.thumb" :alt="book.series">
+                <span>{{ book.series }}</span>
+            </figure>
+        </div>
+    </div>
 </template>
 
 <style scoped lang="scss">
+    
+    .card{
+        width: 100%;
+        background-color: #1c1c1c;
+        padding-block: 50px;
+
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            width: 80%;
+            margin: 0 auto;
+
+            figure{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                width: calc(100% / 6 - 50px);
+                height: 500px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                    display: block;
+                    -webkit-box-shadow: 5px 5px 10px 5px #000000; 
+                    box-shadow: 5px 5px 10px 5px #000000;
+
+                    &:hover{
+                        transform: scale(1.1);
+                        cursor: pointer;
+                    }
+                }
+                span{
+                    color: #fff;
+                    margin-top: 30px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    
+                }
+            }
+        }
+    }
+    
 
 </style>

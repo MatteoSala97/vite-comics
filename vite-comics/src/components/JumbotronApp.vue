@@ -1,7 +1,11 @@
 <script>
+import ListBooksApp from './ListBooksApp.vue';
 
 export default {
-  name: "JumbotronApp"
+  name: "JumbotronApp",
+  components:{
+    ListBooksApp,
+  },
 }
 </script>
 
@@ -10,22 +14,15 @@ export default {
         <figure>
             <img src="../assets/img/jumbotron.jpg" alt="">
         </figure>
-        <div>
+        <div class="series">
             <p>Current series</p>
         </div>
     </div>
-    <div class="container">
-        <div v-for="(book, index) in books" :key="index">
-            <figure>
-                <img :src="book.thumb" :alt="book.series">
-                <span>{{ book.series }}</span>
-            </figure>
-            
-        </div>
-    </div>
+
+    <ListBooksApp/>
 </template>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 @use "../styles/partials/variables" as *;
 @use "../styles/partials/mixins" as *;
 
@@ -43,7 +40,7 @@ export default {
             }
         }
 
-        div{
+        .series{
             display: flex;
             align-items: center;
             position: absolute;
@@ -61,31 +58,4 @@ export default {
             }
         }
     }
-
-    .container{
-        width: 100%;
-        background-color: #1c1c1c;
-        padding-block: 50px;
-
-        div{
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-            width: 80%;
-            margin: 0 auto;
-            figure{
-                width: calc(100% / 6 - 30px);
-                height: 400px;
-                img{
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                    object-position: top;
-                    display: block;
-                }
-            }
-        }
-    }
-    
-
 </style>
