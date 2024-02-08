@@ -103,6 +103,7 @@ export default {
         :propsSrc=" book.thumb "
         :propsSeries=" book.series "/>
     </div>
+    <div id="load-more">Load more</div>
 </template>
 
 <style scoped lang="scss">
@@ -149,5 +150,25 @@ export default {
         width: 80%;
         display: flex;
         flex-wrap: wrap;
+    }
+    #load-more{
+        width: 20%;
+        margin: 20px auto 20px auto;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        background-color:#0282f9;
+        -webkit-box-shadow: 5px 5px 10px 5px #000000; 
+        box-shadow: 5px 5px 10px 5px #000000;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffffff;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.1);
+        }
+
     }
 </style>

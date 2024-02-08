@@ -74,7 +74,7 @@ export default {
 
                     &:hover{
                         cursor: pointer;
-                        transform: scale(1.1);
+                        
                     }
 
                     img{
