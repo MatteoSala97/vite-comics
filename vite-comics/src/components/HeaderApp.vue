@@ -104,7 +104,7 @@ div{
       a{
         text-transform: uppercase;
         text-decoration: none;
-        color: black;
+        color: #fff;
         padding-block: 58px;
 
         &:hover{
