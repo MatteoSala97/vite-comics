@@ -2,6 +2,62 @@
 
 export default {
   name: "HeaderApp",
+  data(){
+    return {
+      menuLinks: [
+        {
+          name: "characters",
+          link: "#",
+          current: false
+        },
+        {
+          name: "comics",
+          link: "#",
+          current: true
+        },
+        {
+          name: "movies",
+          link: "#",
+          current: false
+        },
+        {
+          name: "tv",
+          link: "#",
+          current: false
+        },
+        {
+          name: "games",
+          link: "#",
+          current: false
+        },
+        {
+          name: "collectibles",
+          link: "#",
+          current: false
+        },
+        {
+          name: "videos",
+          link: "#",
+          current: false
+        },
+        {
+          name: "fans",
+          link: "#",
+          current: false
+        },
+        {
+          name: "news",
+          link: "#",
+          current: false
+        },
+        {
+          name: "shop",
+          link: "#",
+          current: false
+        },
+      ]
+    }
+  }
 };
 </script>
 
@@ -9,47 +65,20 @@ export default {
   <div>
     <figure>
       <a href="#">
-        <img src="../assets/img/dc-logo.png" alt="">
+        <img src="../assets/img/dc-logo.png" alt="Dc Logo">
       </a>
     </figure>
     <ul>
-      <li>
-        <a href="#">characters</a>
-      </li>
-      <li>
-        <a href="#">comics</a>
-      </li>
-      <li>
-        <a href="#">movies</a>
-      </li>
-      <li>
-        <a href="#">tv</a>
-      </li>
-      <li>
-        <a href="#">games</a>
-      </li>
-      <li>
-        <a href="#">collectibles</a>
-      </li>
-      <li>
-        <a href="#">videos</a>
-      </li>
-      <li>
-        <a href="#">fans</a>
-      </li>
-      <li>
-        <a href="#">news</a>
-      </li>
-      <li>
-        <a href="#">shop</a>
+      <li v-for="(element, index) in menuLinks" :key="index">
+        <a :class="element.current ? 'active' : '' " href="#">{{ element.name }}</a>
       </li>
     </ul>
   </div>
 </template>
 
 <style lang="scss" scoped>
-@use "../styles/partials/variables" as *;
-@use "../styles/partials/mixins" as *;
+@use "../styles/partials/variables" as *; 
+@use "../styles/partials/mixins" as *; 
 
 div{
   display: flex;
@@ -75,8 +104,8 @@ div{
       a{
         text-transform: uppercase;
         text-decoration: none;
-        color: $font-color-main;
-        padding-block: 60px;
+        color: black;
+        padding-block: 58px;
 
         &:hover{
           color: #0282f9;
@@ -85,5 +114,9 @@ div{
       }
     }
   }
+}
+.active{
+  color: #0282f9;
+  border-bottom: 5px solid #0282f9;
 }
 </style>

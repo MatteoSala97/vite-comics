@@ -153,6 +153,8 @@ export default {
             background-color: #303030;
             border: 5px solid #0282f9;
             cursor: pointer;
+            -webkit-box-shadow: 5px 5px 10px 5px #000000; 
+            box-shadow: 5px 5px 10px 5px #000000;
 
             &:hover{
                 transform: scale(1.1);
